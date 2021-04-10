@@ -20,7 +20,6 @@ public class ClientWordCounterApp {
 		
 		Socket socket = new Socket(InetAddress.getLocalHost(), 2393);
 		
-		
 				
 		cFrame.bttnClick.addActionListener(new ActionListener() {
 		
@@ -43,38 +42,19 @@ public class ClientWordCounterApp {
 					String totalWordOfText = input.readUTF();
 					
 					cFrame.updateCount(Integer.parseInt(totalWordOfText));
-					
-					
-					
-					
-					
-					
-					
-					
+								
 					
 					
 				} catch (IOException e1) {
 					// TODO Auto-generated catch block
 					e1.printStackTrace();
 				}
-					
-					
-					
-					
-				
-				
+								
 				 
 			 }
 			
 		});
-				
-		
-		
-		
-		
-		
-		
-		
+						
 	}
 
 }
